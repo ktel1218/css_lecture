@@ -1,0 +1,123 @@
+
+body{
+    margin: 20px auto;
+    font-family: helvetica;
+    color: #5E5E5D;
+    width:60%;
+    /*background-image: url("http://farm7.static.flickr.com/6077/6098521981_55c7b2b492_b.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    /*background-attachment: fixed;*/
+    /*background-color: white;*/
+}
+
+a {
+    color: #81C740;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    width: 335px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 1em 0.5em;
+}
+
+label{
+    margin:0.5em 0;
+    display:inline-block;
+    font-family: sans-serif;
+    font-weight: 700;
+    min-width:120px;
+}
+
+th{
+    text-align: left;
+}
+
+input{
+    margin: 5px 0;
+}
+
+input[type="submit"]{
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 0;
+    border: none;
+}
+
+input[type="checkbox"]:after{
+    content:" ";
+    width:100%;
+}
+
+
+
+/*WTF is trial 10/ 11 about. Can we scrap this trick?*/ DONE
+/*CSS WITH TAGS/CLASSES/IDs -- */ DONE
+/*THE DISPLAYS -- (heard of block and inline, what about INLINE BLOCK?) and the others */ DONE
+/*THE FLOATS -- */
+/*THE POSITIONS -- */ 
+/*THE UNITS --*/ DONE
+/*line height?*/ DONE
+/*basic pseudo-selectors*/ ?
+/*font-family*/ DONE
+/*THE COLOR -- */ DONE
+/*THE FOUR SIDES OF A BLOCK ELEMENT -- you can specify the four sides of a margin/border/padding value in a row/*/ DONE
+/*CENTERING THINGS -- margin: auto 0 or combination of text-align: center and display:inline-block*/ DONE
+
+
+things you can do to blocks:
+    margin
+        margin-side
+    height
+    width
+    background
+        background-image: url()
+        background-repeat
+        background-color
+    border
+
+
+things you can do to both:
+    inherit
+    display
+        display: inline-block
+    position
+        position: absolute
+function attributes: rgb(), hsl(), adding a(), standard hex, url()
+
+
+/*Style it with ids and classes, but can be done without*/
+
+
+JOEL'S NOTES:
+
+
+remove POSITIONS [DONE]
+be able to switch between CSS and no CSS [DONE]
+fix syntax highlighting [DONE]
+move external stylesheet to very end [DONE]
+slide on border/margin/padding [DONE]
+fix typos, duh [DONE]
+include intro question about divs and spans [DONE]
+combination selectors with one ridiculous example [ish]
+list of most commonly used to pass out
+post-work to look at: [DONE]
+    CSS Diner
+    30 most used selectors
+    headsup/head first? html and CSS
